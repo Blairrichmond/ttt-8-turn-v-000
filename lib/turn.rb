@@ -28,8 +28,6 @@ end
 
 move(board, 0, "X")
 
-
-loop do
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
@@ -37,5 +35,4 @@ def turn(board)
   valid_move?(board, 0)
   puts "Please enter 1-9:"
   input = gets.strip
-
 end
