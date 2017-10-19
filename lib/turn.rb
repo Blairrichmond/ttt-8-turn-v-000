@@ -33,6 +33,7 @@ def turn(board)
   input = gets.strip
   until valid_move?(board, input) == true
     input = gets.strip
+    break
   end
   move(board, input)
   display_board(board)
