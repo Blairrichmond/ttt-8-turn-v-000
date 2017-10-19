@@ -36,7 +36,7 @@ def turn(board)
     move(board, 4, "X")
   else
     loop do
-      turn(input)
+      turn(board)
       break
     end
   end
