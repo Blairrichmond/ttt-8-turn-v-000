@@ -13,10 +13,11 @@ def input_to_index(user_input)
 end
 
 def position_taken?(board, index)
+  -1 = false
   if (board[index] ==  " " || board[index] == "" || board[index] == nil)
    return false
  else
-   return false
+   return true
   end
 end
 
