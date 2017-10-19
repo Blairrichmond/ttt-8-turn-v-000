@@ -37,6 +37,7 @@ def turn(board)
   else
     loop do
       turn(input)
+      break
     end
   end
   display_board(board)
