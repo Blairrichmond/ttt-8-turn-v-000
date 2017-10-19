@@ -13,7 +13,7 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-  if index == (1, 2, 3, 4, 5, 6, 7, 8, 9)
+  if index = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     return true
   else
     return false
