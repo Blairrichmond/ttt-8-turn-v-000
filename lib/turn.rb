@@ -28,11 +28,14 @@ end
 
 move(board, 0, "X")
 
+
+loop do
 def turn(board)
-  Loop do
   puts "Please enter 1-9:"
   input = gets.strip
   input_to_index(input)
   valid_move?(board, 0)
+
 end
+break
 end
