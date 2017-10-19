@@ -30,6 +30,6 @@ move(board, 0, "X")
 
 def turn(board)
   puts "Please enter 1-9:"
-  gets.user_input
+  gets.1
 
 end
