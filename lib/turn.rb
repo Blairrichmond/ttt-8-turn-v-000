@@ -19,11 +19,10 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-  if board[index] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  index = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  if position_taken?(board, index)
     return true
-  elsif index = 4
-    return false
-  else
+  else 
     return false
    end
 end
