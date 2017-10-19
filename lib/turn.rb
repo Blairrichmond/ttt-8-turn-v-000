@@ -19,7 +19,7 @@ def valid_move?(board, index)
     return false
   else
     return false
-    
+  end
 end
 
 def move(board, index, value)
