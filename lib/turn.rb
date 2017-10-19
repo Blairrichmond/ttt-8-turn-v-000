@@ -35,10 +35,7 @@ def turn(board)
   if valid_move?(board, 0)
     move(board, 4, "X")
   else
-    loop do
-      turn(board)
-      break
-    end
+      turn(input)
     end
   end
 end
