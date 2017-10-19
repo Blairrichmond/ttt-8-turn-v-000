@@ -35,6 +35,6 @@ def turn(board)
     input = gets.strip
     break
   end
-  move(board, input)
+  move(board, input, "X")
   display_board(board)
 end
