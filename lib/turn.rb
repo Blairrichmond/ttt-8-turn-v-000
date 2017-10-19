@@ -36,6 +36,7 @@ def turn(board)
     move(board, 4, "X")
   else
     input = gets.strip
+    input_to_index(input)
   end
   display_board(board)
 end
