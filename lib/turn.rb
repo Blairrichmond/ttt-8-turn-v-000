@@ -35,6 +35,7 @@ def turn(board)
   if valid_move?(board, 0)
     move(board, 4, "X")
   else
+    puts "invalid"
     turn(board)
   end
   display_board(board)
